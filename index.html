@@ -1,0 +1,21 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Link Manager</title>
+</head>
+<body>
+    <form action="http://localhost:2030/upload" method="post" enctype="multipart/form-data">
+        <h1>Link Manager</h1>
+        <input type="text" name="name" id="">
+        <input type="text" name="description" id="">
+        <input type="file" id="linkInput"  name="pdfFile" placeholder="Enter a link">
+        <input type="submit" value="Upload">
+     
+    </form>
+   
+    <ul id="linkList">
+    </ul>
+    <script src="js/script.js"></script>
+</body>
+</html>
